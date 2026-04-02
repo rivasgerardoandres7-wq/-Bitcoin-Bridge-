@@ -1,4 +1,8 @@
 # 🌉 BITCOIN BRIDGE - Prototipo de Análisis de Precios
+#
+# FRAN: Centralicé el código MVP original eliminando los archivos duplicados en la raíz y moviendo
+# todo el análisis de inflación hacia este archivo. También programé la función
+# `simular_ahorro_btc()` para calcular las ganancias comparativas entre USD y BTC según el esquema de Jonathan.
 
 def analizar_impacto(producto, precio_2025, precio_2026):
     diferencia = precio_2026 - precio_2025
